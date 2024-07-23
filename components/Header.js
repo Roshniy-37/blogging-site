@@ -7,7 +7,7 @@ function Header (){
 
   }
   return(
-    <div className="flex justify-center gap-10 p-5 bg-[#fcc017]">
+    <div className={styles.wrapper}>
       <div className={styles.content}>
         <div className={styles.logoContainer}>
           <Image
@@ -20,8 +20,8 @@ function Header (){
           />
         </div>
         <div className={styles.bannerNav}>
-          <div>Our Story</div>
-          <div>Membership</div>
+          <div>About Us</div>
+          <div>Library</div>
           <div>Sign In</div>
           <div>Get Started</div>
         </div>
